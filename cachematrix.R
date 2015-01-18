@@ -1,5 +1,5 @@
-## Programming Assignment 2 : The two functions below create a special "matrix" and cache the inverse of the matrix so that
-## the time taken for computation is minimized.  These are especially useful in situations that require calculating an
+## Programming Assignment 2 : The two functions below create a special "matrix" and cache the inverse of the matrix
+## so the time taken for computation can be minimized.  These are especially useful in situations that require calculating an
 ## inverse every time in a loop.  Retrieving from Cache saves time.
 
 ## The makeCacheMatrix function creates a special "matrix" which is actually a list containing 4 functions that :
