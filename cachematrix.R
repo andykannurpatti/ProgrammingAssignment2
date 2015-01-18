@@ -8,7 +8,7 @@
 ##  (3) set the inverse of the matrix
 ##  (4) get the inverse of the matrix
 
-makeCacheMatrix <- function(x = matrix()) {  ## Creates a special matrix (Programming Assignment 2)
+makeCacheMatrix <- function(x = matrix()) {  ## Creates a special matrix (Programming Assignment 2 - part 1)
         m <- NULL
         set <- function(y) {
                 x <<- y
@@ -38,7 +38,7 @@ makeCacheMatrix <- function(x = matrix()) {  ## Creates a special matrix (Progra
 ## [2,]    1 -0.5
 ## Notice on the second time cacheSolve(mat) returns the inverse from cache as opposed to solving for the inverse
 
-cacheSolve <- function(x, ...) {                   # Inverts a matrix or returns from Cache if already available
+cacheSolve <- function(x, ...) {         # Inverts a matrix or returns from Cache(Programming Assignment 2 - part 2)
         m <- x$getinverse()
         if(!is.null(m)) {
                 message("getting cached data")
